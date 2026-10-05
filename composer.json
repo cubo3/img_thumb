@@ -1,0 +1,13 @@
+{
+    "name": "cubo3/img-thumb",
+    "description": "Generador de miniaturas de imágenes en PHP, en un solo archivo: al vuelo con caché en disco y por lotes (CLI, recursivo).",
+    "type": "library",
+    "keywords": ["thumbnail", "thumbnails", "image", "resize", "gd", "php", "cli", "cache", "miniaturas"],
+    "homepage": "https://cubo3.cl",
+    "license": "MIT",
+    "authors": [{"name": "Cubo3 Ltda.", "email": "lg@cubo3.cl", "homepage": "https://cubo3.cl"}],
+    "require": {"php": ">=8.1", "ext-gd": "*"},
+    "suggest": {"ext-exif": "Corrige la orientación de fotos de celular"},
+    "autoload": {"files": ["thumb.php"]},
+    "bin": ["thumb.php"]
+}
